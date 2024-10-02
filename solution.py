@@ -47,7 +47,7 @@ def is_resource_sufficient(order_ingredients):
 def process_coins():
     """ Returns the total calculated from inserted coins """
     print(f"Here is available resources:")
-
+ 
     for key, value in resources.items():
         print(f"{key}: {value}")
     
