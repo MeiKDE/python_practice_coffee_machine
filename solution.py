@@ -47,10 +47,11 @@ def is_resource_sufficient(order_ingredients):
 def process_coins():
     """ Returns the total calculated from inserted coins """
     print(f"Here is available resources:")
-    
+
     for key, value in resources.items():
         print(f"{key}: {value}")
-        
+    
+    print("\n")    
     print("Please insert coins.")
     total =int(input("how many quarters?: ")) * 0.25
     total += int(input("how many dimes?: ")) * 0.1
